@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taha Farooqui - Web Designer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+</head>
+
+<body class="text-white">
+    <div class="container mx-auto px-4">
+        <!-- Header Section -->
+        <header class="flex justify-between items-center py-12 main">
+            <div class="container mx-auto px-4">
+                <div class="flex justify-between items-center">
+                    <a href="#" class="text-xl font-bold text-white">Farooqui</a>
+
+                    <nav class="nav-links">
+                        <a href="#home" class="text-sm font-semibold px-4 hover:text-cyan-500">Home</a>
+                        <a href="#about" class="text-sm font-semibold px-4 hover:text-cyan-500">About</a>
+                        <a href="#services" class="text-sm font-semibold px-4 hover:text-cyan-500">Service</a>
+                        <a href="#portfolio" class="text-sm font-semibold px-4 hover:text-cyan-500">Portfolio</a>
+                        <a href="#contact" class="text-sm font-semibold px-4 hover:text-cyan-500">Contact</a>
+                    </nav>
+
+                    <div class="flex items-center social-icons">
+                        <a href="" class="text-white px-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://instagram.com/tahaaa__f" target="_blank" class="text-white px-2"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/farooquii/" target="_blank" class="text-white px-2"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/developertahaa" target="_blank" class="text-white px-2"><i class="fab fa-github"></i></a>
+                    </div>
+
+                    <button id="menu-icon" class="text-white text-xl md:hidden">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+
+                <section class="text-center mt-24" style="padding-top: 65px;" id="home">
+                    <div class="max-w-2xl mx-auto">
+                        <h1 class="text-8xl font-bold py-8">Taha <span class="text-cyan-500">Farooqui</span></h1>
+                        <p class="text-xl mb-6">Web Developer based in Karachi, Pakistan</p>
+                        <button
+                            class="bg-cyan-500 text-white font-semibold px-6 py-3 rounded-full hover:bg-cyan-600"><a href="https://www.linkedin.com/in/farooquii/" target="_blank">Get Connected</a></button>
+                    </div>
+                </section>
+            </div>
+        </header>
+
+        <script>
+            document.getElementById('menu-icon').addEventListener('click', function () {
+                document.querySelector('.nav-links').classList.toggle('active');
+            });
+        </script>
+
+        <!-- Skills Section -->
+        <div class="py-10">
+            <h2 class="text-center text-4xl font-bold mb-10 mt-20">I Work Hard to Improve My Skills Regularly</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <!-- HTML Skill Card -->
+                <div class="tilt-hover bg-blue-800 bg-opacity-50 p-6 rounded-lg shadow-lg text-center h-65 flex flex-col justify-around">
+                    <i class="fab fa-html5 text-5xl text-orange-500"></i>
+                    <h3 class="mt-2 text-xl">HTML</h3>
+                    <p class="text-gray-300">Expert in HTML5 and semantic markup, ensuring accessibility and search
+                        engine optimization.</p>
+                </div>
+                <!-- CSS Skill Card -->
+                <div class="tilt-hover bg-blue-800 bg-opacity-50 p-6 rounded-lg shadow-lg text-center h-65 flex flex-col justify-around">
+                    <i class="fab fa-css3-alt text-5xl text-blue-400"></i>
+                    <h3 class="mt-2 text-xl">CSS</h3>
+                    <p class="text-gray-300">Skilled in CSS3, animations, and responsive design with a focus on
+                        mobile-first principles.</p>
+                </div>
+                <!-- JavaScript Skill Card -->
+                <div class="tilt-hover bg-blue-800 bg-opacity-50 p-6 rounded-lg shadow-lg text-center h-65 flex flex-col justify-around">
+                    <i class="fab fa-js-square text-5xl text-yellow-400"></i>
+                    <h3 class="mt-2 text-xl">JavaScript</h3>
+                    <p class="text-gray-300">Proficient in modern JavaScript (ES6+), including frameworks like React and
+                        Vue.js.</p>
+                </div>
+                <!-- React Skill Card -->
+                <div class="tilt-hover bg-blue-800 bg-opacity-50 p-6 rounded-lg shadow-lg text-center h-65 flex flex-col justify-around">
+                    <i class="fab fa-react text-5xl text-cyan-400"></i>
+                    <h3 class="mt-2 text-xl">React</h3>
+                    <p class="text-gray-300">Experienced in building scalable applications with React, Redux, and
+                        context API.</p>
+                </div>
+                <div class="tilt-hover bg-blue-800 bg-opacity-50 p-6 rounded-lg shadow-lg text-center h-65 flex flex-col justify-around">
+                    <i class="fab fa-bootstrap text-5xl text-purple-400"></i>
+                    <h3 class="mt-2 text-xl">Bootstrap</h3>
+                    <p class="text-gray-300">Proficient in creating responsive and stylish web interfaces using
+                        Bootstrap.</p>
+                </div>
+
+                <!-- C++ Skill Card -->
+                <div class="tilt-hover bg-blue-800 bg-opacity-50 p-6 rounded-lg shadow-lg text-center h-65 flex flex-col justify-around">
+                    <i class="fab fa-cuttlefish text-5xl text-green-400"></i>
+                    <h3 class="mt-2 text-xl">C++</h3>
+                    <p class="text-gray-300">Proficient in C++ programming, including object-oriented principles and
+                        data structures.</p>
+                </div>
+
+                <!-- Go Skill Card -->
+                <div class="tilt-hover bg-blue-800 bg-opacity-50 p-6 rounded-lg shadow-lg text-center h-65 flex flex-col justify-around">
+                    <i class="fab fa-go text-5xl text-blue-400"></i>
+                    <h3 class="mt-2 text-xl">Go</h3>
+                    <p class="text-gray-300">Experienced in developing high-performance applications with the Go
+                        programming language.</p>
+                </div>
+
+                <!-- PHP Skill Card -->
+                <div class="tilt-hover bg-blue-800 bg-opacity-50 p-6 rounded-lg shadow-lg text-center h-65 flex flex-col justify-around">
+                    <i class="fab fa-php text-5xl text-indigo-400"></i>
+                    <h3 class="mt-2 text-xl">PHP</h3>
+                    <p class="text-gray-300">Skilled in server-side scripting with PHP and building dynamic web
+                        applications.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content Section -->
+        <section class="text-center mt-20" id="about">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-4">Who i Am?</h2>
+
+                <section class="flex about items-center py-10">
+                    <div class="flex-1">
+                        <div class="rounded-lg bg-white p-6 text-blue-900">
+                            <img src="images/profile.jpg" alt="Alan Walker working on a laptop"
+                                class="rounded-lg mb-4">
+                            <div class="flex items-center justify-between">
+                                <div class="text-6xl font-bold">3</div>
+                                <div class="text-right">
+                                    <div class="text-2xl font-bold">Successful</div>
+                                    <div class="text-2xl font-bold">Years</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-1 ml-10 text-left">
+                        <h2 class="text-3xl font-bold mb-4 mt-6">About Me</h2>
+
+                        <p class="mb-6">
+                            My dedication to continuous learning ensures that I stay current with the latest trends in
+                            web development, including proficiency in modern JavaScript frameworks such as React and
+                            Vue.js. I am adept at translating complex requirements into elegant and efficient code,
+                            always striving for optimal performance and maintainability.
+
+                            Let's collaborate to bring your web projects to life and make a meaningful impact on the
+                            digital landscape.
+                        </p>
+                        <div class="flex border-4 border-gray-400 text-center p-6">
+                            <div class="w-1/2 rounded-l-lg">
+                                <div class="mb-2">
+                                    <div class="text-sm font-bold">Name</div>
+                                    <div>Taha Farooqui</div>
+                                </div>
+                                <br>
+                                <div class="mb-2">
+                                    <div class="text-sm font-bold">Email</div>
+                                    <div>mohdtaha9901@gmail.com</div>
+                                </div>
+                                <br>
+                                <div class="mb-2">
+                                    <div class="text-sm font-bold">Phone</div>
+                                    <div>+92 311 1842026</div>
+                                </div>
+                                <br>
+                            </div>
+                            <div class="border-r border-gray-500"></div>
+                            <div class="w-1/2 rounded-r-lg">
+                                <div class="mb-2">
+                                    <div class="text-sm font-bold">Degree</div>
+                                    <div>BSCS</div>
+                                </div>
+                                <br>
+                                <div class="mb-2">
+                                    <div class="text-sm font-bold">Address</div>
+                                    <div>Karachi, Pakistan</div>
+                                </div>
+                                <br>
+                                <div class="mb-2">
+                                    <div class="text-sm font-bold">Freelance</div>
+                                    <div>Available</div>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="flex justify-end mt-4">
+                            <input type="file" id="pdfInput" accept=".pdf" style="display: none;">
+                            <button
+                                id="openButton"
+                                class="bg-cyan-500 text-white px-6 py-2 rounded hover:bg-cyan-400 transition duration-200">
+                                Download CV
+                            </button>
+                        </div>
+                        
+                        <script>
+                            document.getElementById('openButton').addEventListener('click', function () {
+                                window.open('cv.pdf', '_blank');
+                            });
+                        </script>
+                        
+                    </div>
+                </section>
+            </div>
+        </section>
+
+
+        <!-- Other sections would go here -->
+        <section class="py-12" id="services">
+            <h2 class="text-center text-3xl font-bold mb-12">What I Do for My Clients</h2>
+            <div class="container mx-auto px-8">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-6 items-center justify-center">
+                    <!-- Service Cards -->
+                    <div class="service-card bg-blue-800 bg-opacity-50 p-6 rounded-lg shadow-lg text-center">
+                        <i class="fas fa-laptop-code text-cyan-300 text-4xl mb-4"></i>
+                        <h3 class="text-xl font-semibold text-white mb-3">Web Design</h3>
+                        <p class="text-gray-300">Creating visually appealing and user-friendly designs for your digital
+                            presence.</p>
+                    </div>
+
+                    <div class="service-card bg-blue-800 bg-opacity-50 p-6 rounded-lg shadow-lg text-center">
+                        <i class="fas fa-code text-cyan-300 text-4xl mb-4"></i>
+                        <h3 class="text-xl font-semibold text-white mb-3">Web Development</h3>
+                        <p class="text-gray-300">Developing robust and scalable websites tailored to your business
+                            needs.</p>
+                    </div>
+
+                    <div class="service-card bg-blue-800 bg-opacity-50 p-6 rounded-lg shadow-lg text-center">
+                        <i class="fas fa-search-dollar text-cyan-300 text-4xl mb-4"></i>
+                        <h3 class="text-xl font-semibold text-white mb-3">SEO</h3>
+                        <p class="text-gray-300">Optimizing your website to rank higher in search engine results and
+                            increase visibility.</p>
+                    </div>
+
+                    <div class="service-card bg-blue-800 bg-opacity-50 p-6 rounded-lg shadow-lg text-center">
+                        <i class="fas fa-camera-retro text-cyan-300 text-4xl mb-4"></i>
+                        <h3 class="text-xl font-semibold text-white mb-3">Photography</h3>
+                        <p class="text-gray-300">Capturing high-quality images to enhance your marketing and branding
+                            efforts.</p>
+                    </div>
+
+                    <div class="service-card bg-blue-800 bg-opacity-50 p-6 rounded-lg shadow-lg text-center">
+                        <i class="fas fa-cogs text-cyan-300 text-4xl mb-4"></i>
+                        <h3 class="text-xl font-semibold text-white mb-3">C++ Programming</h3>
+                        <p class="text-gray-300">Writing efficient and high-performance software solutions in C++.</p>
+                    </div>
+
+                    <div class="service-card bg-blue-800 bg-opacity-50 p-6 rounded-lg shadow-lg text-center">
+                        <i class="fas fa-paint-brush text-cyan-300 text-4xl mb-4"></i>
+                        <h3 class="text-xl font-semibold text-white mb-3">Graphic Design</h3>
+                        <p class="text-gray-300">Crafting creative visual content to communicate messages effectively.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-center py-20" id="portfolio">
+            <div class="container project">
+                <h2 class="text-3xl font-bold mb-10">What I Do for My Clients</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+                    <!-- HTML Skill Card -->
+                
+                    <div class="tilt-hover bg-blue-800 bg-opacity-50 p-6 rounded-lg shadow-lg text-center h-65 flex flex-col justify-around">
+                        <i class="fa fa-dumpster text-5xl text-orange-500"></i>
+                        <a href="https://github.com/developertahaa/SleekStyle-Ecommerce-Website-using-PHP" target="_blank"><h3 class="mt-2 text-xl">Ecommerce Website</h3></a>
+                        <p class="text-gray-300"><span class="font-bold">Tech Used:</span>Html, CSS, Bootstrap, PHP and MySQL. </p>
+                    </div>
+                    <!--SS Skill Card -->
+                    <div class="tilt-hover bg-blue-800 bg-opacity-50 p-6 rounded-lg shadow-lg text-center h-65 flex flex-col justify-around">
+                        <i class="fab fa-google text-5xl text-orange-500"></i>
+                        <a href="https://github.com/developertahaa/Google-Classroom-Clone-Using-PHP-and-HTML" target="_blank"><h3 class="mt-2 text-xl">Google Classroom Clone</h3></a>
+                        <p class="text-gray-300"><span class="font-bold">Tech Used:</span>Html,Bootstrap, PHP and MySQL. </p>
+                        
+                    </div>
+                    <!-- JavaScript Skill Card -->
+                    <div class="tilt-hover bg-blue-800 bg-opacity-50 p-6 rounded-lg shadow-lg text-center h-65 flex flex-col justify-around">
+
+                        <i class="fas fa-laptop-code text-orange-500 text-4xl mb-4"></i>
+                        <a href="https://github.com/developertahaa/Login-System-with-Password-Reset-Functionality-using-PHP" target="_blank"><h3 class="mt-2 text-xl">Login/Registration</h3></a>
+                        <p class="text-gray-300"><span class="font-bold">Tech Used:</span>Bootstrap, PHP and MySQL. </p>
+                    </div>
+                    
+                    <div class="tilt-hover bg-blue-800 bg-opacity-50 p-6 rounded-lg shadow-lg text-center h-65 flex flex-col justify-around">
+                        <i class="fas fa-code text-orange-500 text-4xl mb-4"></i>
+                        <a href="https://github.com/developertahaa/Operation-System-in-C-using-DSA" target="_blank"><h3 class="mt-2 text-xl">Operating System Simulation</h3></a>
+                        <p class="text-gray-300"><span class="font-bold">Tech Used:</span>C, C++</p>
+                    </div>
+                    
+                    <div class="tilt-hover bg-blue-800 bg-opacity-50 p-6 rounded-lg shadow-lg text-center h-65 flex flex-col justify-around">
+                        <i class="fa fa-file-word text-orange-500 text-4xl mb-4"></i>
+                        <a href="" target="_blank" ><h3 class="mt-2 text-xl">Word Search App</h3></a>
+                        <p class="text-gray-300"><span class="font-bold">Tech Used:</span>Bootstrap, PHP and MySQL. </p>
+                    </div>
+                </div>
+                <button
+                class="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-400 transition duration-200 mt-10">
+                <a href="https://github.com/developertahaa" target="_blank">View More..</a>
+            </button>
+            </div>
+        </section>
+
+
+        <div class="container mx-auto px-4 py-12" id="contact">
+            <h2 class="text-3xl font-bold mb-10 text-center">I Want to Hear from You</h2>
+
+            <div class="flex items-center justify-center">
+                <!-- Contact Form -->
+                <div class="contact-form w-full md:w-3/2 px-4">
+                    <form action="#" method="POST">
+                        <div class="mb-4">
+                            <input type="text" placeholder="Your Name" name="name" required
+                                class="w-full border rounded-md py-2 px-3 focus:outline-none focus:border-blue-500 bg-transparent">
+                        </div>
+                        <div class="mb-4">
+                            <input type="email" placeholder="Your Email" name="email" required
+                                class="w-full border rounded-md py-2 px-3 focus:outline-none focus:border-blue-500 bg-transparent">
+                        </div>
+                        <div class="mb-4">
+                            <input type="tel" placeholder="Your Phone" name="phone"
+                                class="w-full border rounded-md py-2 px-3 focus:outline-none focus:border-blue-500 bg-transparent">
+                        </div>
+                        <div class="mb-4">
+                            <input type="text" placeholder="Subject" name="subject"
+                                class="w-full border rounded-md py-2 px-3 focus:outline-none focus:border-blue-500 bg-transparent">
+                        </div>
+                        <div class="mb-4">
+                            <textarea placeholder="Write your message here" name="message" rows="4" required
+                                class="w-full border rounded-md py-2 px-3 focus:outline-none focus:border-blue-500 bg-transparent"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-700">
+                                Submit Now
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+</div>
+
+<!-- Footer Section -->
+<footer class="text-white py-4 bg-blue-800 bg-opacity-50">
+    <div class="container mx-auto px-4">
+        <div class="text-center">
+            <div>
+            <p>Designed and Developed By <span class="font-bold"><a href="https://www.linkedin.com/in/farooquii/">Taha Farooqui</a></span></p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+</body>
+
+</html>
