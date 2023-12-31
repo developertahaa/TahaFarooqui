@@ -43,7 +43,7 @@
 
                 <section class="text-center mt-24" style="padding-top: 65px;" id="home">
                     <div class="max-w-2xl mx-auto">
-                        <h1 class="text-8xl font-bold py-8">Taha <span class="text-cyan-500">Farooqui</span></h1>
+                        <h1 class="text-5xl md:text-8xl font-bold py-8">Taha <span class="text-cyan-500">Farooqui</span></h1>
                         <p class="text-xl mb-6">Web Developer based in Karachi, Pakistan</p>
                         <button
                             class="bg-cyan-500 text-white font-semibold px-6 py-3 rounded-full hover:bg-cyan-600"><a href="https://www.linkedin.com/in/farooquii/" target="_blank">Get Connected</a></button>
@@ -61,7 +61,9 @@
         <!-- Skills Section -->
         <div class="py-10">
             <h2 class="text-center text-4xl font-bold mb-10 mt-20">I Work Hard to Improve My Skills Regularly</h2>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="container mx-auto px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 items-center justify-center">
+
                 <!-- HTML Skill Card -->
                 <div class="tilt-hover bg-blue-800 bg-opacity-50 p-6 rounded-lg shadow-lg text-center h-65 flex flex-col justify-around">
                     <i class="fab fa-html5 text-5xl text-orange-500"></i>
@@ -90,8 +92,8 @@
                     <p class="text-gray-300">Experienced in building scalable applications with React, Redux, and
                         context API.</p>
                 </div>
-                <div class="tilt-hover bg-blue-800 bg-opacity-50 p-6 rounded-lg shadow-lg text-center h-65 flex flex-col justify-around">
-                    <i class="fab fa-bootstrap text-5xl text-purple-400"></i>
+                <div class="tilt-hover bg-blue-800 bg-opacity-50 p-6 rounded-lg shadow-lg text-center h-75 flex flex-col justify-around">
+                    <i class="fab fa-bootstrap text-7xl text-purple-400"></i>
                     <h3 class="mt-2 text-xl">Bootstrap</h3>
                     <p class="text-gray-300">Proficient in creating responsive and stylish web interfaces using
                         Bootstrap.</p>
@@ -107,7 +109,7 @@
 
                 <!-- Go Skill Card -->
                 <div class="tilt-hover bg-blue-800 bg-opacity-50 p-6 rounded-lg shadow-lg text-center h-65 flex flex-col justify-around">
-                    <i class="fab fa-go text-5xl text-blue-400"></i>
+                    <i class="fab fa-google text-5xl text-blue-400"></i>
                     <h3 class="mt-2 text-xl">Go</h3>
                     <p class="text-gray-300">Experienced in developing high-performance applications with the Go
                         programming language.</p>
@@ -115,14 +117,14 @@
 
                 <!-- PHP Skill Card -->
                 <div class="tilt-hover bg-blue-800 bg-opacity-50 p-6 rounded-lg shadow-lg text-center h-65 flex flex-col justify-around">
-                    <i class="fab fa-php text-5xl text-indigo-400"></i>
+                    <i class="fab fa-php text-7xl text-indigo-400"></i>
                     <h3 class="mt-2 text-xl">PHP</h3>
                     <p class="text-gray-300">Skilled in server-side scripting with PHP and building dynamic web
                         applications.</p>
                 </div>
             </div>
+            </div>
         </div>
-
         <!-- Main Content Section -->
         <section class="text-center mt-20" id="about">
             <div class="container mx-auto px-4">
@@ -154,44 +156,48 @@
                             Let's collaborate to bring your web projects to life and make a meaningful impact on the
                             digital landscape.
                         </p>
-                        <div class="flex border-4 border-gray-400 text-center p-6">
-                            <div class="w-1/2 rounded-l-lg">
-                                <div class="mb-2">
-                                    <div class="text-sm font-bold">Name</div>
-                                    <div>Taha Farooqui</div>
+                        <div class="max-w-md mx-auto border-4 border-gray-400 rounded-lg overflow-hidden shadow-lg p-6">
+                            <!-- Profile image centered for mobile view -->
+                            <div class="mb-4 flex justify-center items-center">
+                                <div class="w-20 h-20 bg-gray-300 rounded-full overflow-hidden mr-4">
+                                    <!-- Add your profile image here -->
+                                    <img src="images/profile-logo.jpg" alt="Profile Image" class="w-full h-full object-cover" />
                                 </div>
-                                <br>
+                            </div>
+                            <!-- Bio information -->
+                            <div class="text-center">
+                                <h1 class="text-2xl font-bold mb-2">Taha Farooqui</h1>
+                                <p class="text-white-600 mb-4">Web Developer based in Karachi, Pakistan</p>
+                            </div>
+                            <!-- Personal information -->
+                            <div class="mb-4">
                                 <div class="mb-2">
                                     <div class="text-sm font-bold">Email</div>
-                                    <div>mohdtaha9901@gmail.com</div>
+                                    <div class="text-white-800">mohdtaha9901@gmail.com</div>
                                 </div>
-                                <br>
                                 <div class="mb-2">
                                     <div class="text-sm font-bold">Phone</div>
-                                    <div>+92 311 1842026</div>
+                                    <div class="text-white-800">+92 311 1842026</div>
                                 </div>
-                                <br>
                             </div>
-                            <div class="border-r border-gray-500"></div>
-                            <div class="w-1/2 rounded-r-lg">
+                            <!-- Education and availability -->
+                            <div class="mb-4">
                                 <div class="mb-2">
                                     <div class="text-sm font-bold">Degree</div>
-                                    <div>BSCS</div>
+                                    <div class="text-white-800">BSCS</div>
                                 </div>
-                                <br>
                                 <div class="mb-2">
                                     <div class="text-sm font-bold">Address</div>
-                                    <div>Karachi, Pakistan</div>
+                                    <div class="text-white-800">Karachi, Pakistan</div>
                                 </div>
-                                <br>
                                 <div class="mb-2">
                                     <div class="text-sm font-bold">Freelance</div>
-                                    <div>Available</div>
+                                    <div class="text-white-800">Available</div>
                                 </div>
-                                <br>
                             </div>
                         </div>
-
+                        
+                        
                         <div class="flex justify-end mt-4">
                             <input type="file" id="pdfInput" accept=".pdf" style="display: none;">
                             <button
@@ -266,8 +272,9 @@
         <section class="text-center py-20" id="portfolio">
             <div class="container project">
                 <h2 class="text-3xl font-bold mb-10">What I Do for My Clients</h2>
-                <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
-                    <!-- HTML Skill Card -->
+                <div class="container mx-auto px-8">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-center justify-center">
+                        <!-- HTML Skill Card -->
                 
                     <div class="tilt-hover bg-blue-800 bg-opacity-50 p-6 rounded-lg shadow-lg text-center h-65 flex flex-col justify-around">
                         <i class="fa fa-dumpster text-5xl text-orange-500"></i>
@@ -284,8 +291,8 @@
                     <!-- JavaScript Skill Card -->
                     <div class="tilt-hover bg-blue-800 bg-opacity-50 p-6 rounded-lg shadow-lg text-center h-65 flex flex-col justify-around">
 
-                        <i class="fas fa-laptop-code text-orange-500 text-4xl mb-4"></i>
-                        <a href="https://github.com/developertahaa/Login-System-with-Password-Reset-Functionality-using-PHP" target="_blank"><h3 class="mt-2 text-xl">Login/Registration</h3></a>
+                        <i class="fas fa-laptop-code text-orange-500 text-5xl mb-4"></i>
+                        <a href="https://github.com/developertahaa/Login-System-with-Password-Reset-Functionality-using-PHP" target="_blank"><h3 class="mt-4 text-xl">Login/Registration</h3></a>
                         <p class="text-gray-300"><span class="font-bold">Tech Used:</span>Bootstrap, PHP and MySQL. </p>
                     </div>
                     
